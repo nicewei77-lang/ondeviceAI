@@ -1,0 +1,52 @@
+{
+  "seed": 0,
+  "epochs": 20,
+  "batch_size": 8,
+  "optimizer": "AdamW",
+  "backbone_lr": 1e-05,
+  "head_lr": 0.0001,
+  "weight_decay": 0.01,
+  "scheduler": null,
+  "train_precision": "AMP float16",
+  "validation_precision": "float32",
+  "selection": "validation accuracy, then validation loss",
+  "condition": "B30_from_B0",
+  "phase": "post_pruning_recovery",
+  "source_stage": "cub_finetuned_B0",
+  "source_checkpoint": "/content/drive/MyDrive/ondeviceAI/checkpoints/B0_20261024_172759_400529/best.pth",
+  "source_epoch": 10,
+  "source_validation_accuracy": 0.8333333333333334,
+  "input_checkpoint": "/content/drive/MyDrive/ondeviceAI/initial_checkpoints/B30_from_B0_init.pth",
+  "input_checkpoint_sha256": "0115ee0496458872ce56129976c74f9b05cd4c92fc7cc7ed91135780d51cbee1",
+  "model": "dinov3_convnext_base",
+  "dino_commit": "6876159a11b4df116f30f667f8c9888617df0751",
+  "input_size": 224,
+  "train_transform": "Compose(\n    RandomHorizontalFlip(p=0.5)\n    ColorJitter(brightness=(0.9, 1.1), contrast=None, saturation=None, hue=None)\n    <function pad_image at 0x7a1b2c1cb6a0>\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+  "eval_transform": "Compose(\n    <function pad_image at 0x7a1b2c1cb6a0>\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+  "split_counts": {
+    "train": 4794,
+    "validation": 1200,
+    "test": 5794
+  },
+  "source_metadata_sha256": {
+    "images.txt": "e1cfc5ed1f4bd1b838040784b6f75c44f7a25d9b31707a3adab49ec694618c1f",
+    "image_class_labels.txt": "e9df8c96d897994a245746fe2c98914b9b31f5342bddc6e8b06bdfbf45e49b02",
+    "classes.txt": "66a884364a73edde6c71eeb7fd5d8bb791e80979b64759bd6a5d5d209bdc02ba",
+    "train_test_split.txt": "8bbbfcc09b4d3c9c6e3e40c9874bd863eb6658f4f456e472df1b33d3403d2600"
+  },
+  "data_directory": "/content/ondeviceAI/data/CUB_200_2011/CUB_200_2011",
+  "torch_version": "2.11.0+cu130",
+  "torchvision_version": "0.26.0+cu130",
+  "cuda_version": "13.0",
+  "gpu": "Tesla T4",
+  "data_loader_repository": "https://github.com/nicewei77-lang/ondeviceAI.git",
+  "data_loader_commit": "b8de137d50502d6d324f486db9c9d08e524ef707",
+  "data_loader_origin": "existing_working_tree",
+  "data_loader_file_sha256": {
+    "data_loader.py": "792620d07b57bd5bed6f57fd84ddc3e844eb9ae9cad0c0728c16ab2f04749eb1",
+    "docs/splits/train_ids.txt": "539eedcc691bd889e59106d8f9b167b4481f2b5461413148920a4018407024f9",
+    "docs/splits/validation_ids.txt": "45e0b821855a851c3d17d0b5d1c85ee854e388aeb0971a6a68e176798504780d",
+    "docs/splits/test_ids.txt": "de2dd4ab1b483bdce28c72d2290243ced14a4f3181b23426c76e82c42ebfcfe5",
+    "docs/splits/metadata.json": "679ff98c47f2ab74ee410be569e59107a9014d110b964ddca187a1b12db8c459"
+  }
+}
