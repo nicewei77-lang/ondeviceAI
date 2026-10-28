@@ -1,9 +1,9 @@
-# Preserve completed CUB evidence and exported metadata byte for byte.
-docs/results/cub_taylor_ce_kl_from_b0/** -text
-outputs/checkpoints/B[357]0_Taylor_CE_KL_from_B0/** -text
-outputs/checkpoints/KD_Taylor_CE_KL_from_B0/** -text
+# 완료된 CUB 원문과 export 메타데이터의 바이트와 CRLF를 유지한다.
+docs/results/cub_taylor_ce_kl_from_b0/** -text whitespace=cr-at-eol
+outputs/checkpoints/B[357]0_Taylor_CE_KL_from_B0/** -text whitespace=cr-at-eol
+outputs/checkpoints/KD_Taylor_CE_KL_from_B0/** -text whitespace=cr-at-eol
 experiments/cub_taylor_kd/runtime/*.zip binary
 
-# Keep the shared notebook sources portable across Windows and Colab.
+# 공유 노트북은 Windows와 Colab에서 같은 LF 소스로 보관한다.
 notebooks/teacher_B30_50_70_Taylor_CE_KL_from_B0_colab.ipynb text eol=lf
 notebooks/kd_Taylor_CE_KL_from_B0_colab.ipynb text eol=lf
