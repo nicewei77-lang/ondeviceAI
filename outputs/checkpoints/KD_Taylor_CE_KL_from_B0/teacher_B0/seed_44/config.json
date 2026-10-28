@@ -1,0 +1,130 @@
+{
+  "schema": "cub.kd.github_export.v1",
+  "teacher_condition": "B0",
+  "seed": 44,
+  "epochs": 60,
+  "batch_size": 16,
+  "effective_batch_size": 64,
+  "optimizer": "AdamW",
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "temperature": 4.0,
+  "kd_alpha": 0.5,
+  "loss": "0.5*CE + 0.5*T^2*KL(Teacher||Student)",
+  "validation_batch_size": 16,
+  "checkpoint_selection": "all 60 validation epochs; OA, then CE, then earliest",
+  "model_spec": {
+    "architecture": "mobilenet_v3_large",
+    "dropout": 0.2,
+    "kind": "student",
+    "num_classes": 200,
+    "schema_version": 1,
+    "test_fixture": false,
+    "width_mult": 1.0
+  },
+  "native_contract": {
+    "Teacher_lock_id": "6990d87cfe844ea35bf71d4190dca08d2ef2de177fabf5b56b4f7de84299f4aa",
+    "contract": {
+      "code_id": "872e1a3560df5dce08a03efdf0932763299545a61921f95418a3b2a6ef9545af",
+      "config": {
+        "amp": true,
+        "batch_size": 16,
+        "checkpoint_selection": "validation_overall_accuracy",
+        "cub_validation_per_class": 6,
+        "data_profile": "team_cub_shared851a48b_pad224_v1",
+        "dataset": "cub200",
+        "datasets": [
+          "cub200"
+        ],
+        "effective_batch_size": 64,
+        "eval_resize": 224,
+        "experiment_id": "team_cub_shared851a48b_pad224_native_v1",
+        "hard_class_fraction": 0.2,
+        "hard_margin_pp": 2.0,
+        "head_epochs": 5,
+        "image_size": 224,
+        "kd_alpha": 0.5,
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "num_classes": 200,
+        "num_workers": 2,
+        "overall_margin_pp": 1.0,
+        "pruning_applied": false,
+        "schema_version": 1,
+        "split_seed": 42,
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "student_architecture": "mobilenet_v3_large",
+        "student_epochs": 60,
+        "student_lr": 0.0003,
+        "student_seeds": [
+          42,
+          43,
+          44
+        ],
+        "student_weight_decay": 0.0001,
+        "student_weights": "IMAGENET1K_V2",
+        "teacher_backbone_lr": 5e-05,
+        "teacher_finetune_epochs": 40,
+        "teacher_head_lr": 0.0005,
+        "teacher_seed": 20261013,
+        "teacher_sizes": [
+          "tiny",
+          "small",
+          "base"
+        ],
+        "teacher_source_commit": "6876159a11b4df116f30f667f8c9888617df0751",
+        "teacher_weight_decay": 0.05,
+        "team_shared_split_sha256": {
+          "test_ids.txt": "de2dd4ab1b483bdce28c72d2290243ced14a4f3181b23426c76e82c42ebfcfe5",
+          "train_ids.txt": "539eedcc691bd889e59106d8f9b167b4481f2b5461413148920a4018407024f9",
+          "validation_ids.txt": "45e0b821855a851c3d17d0b5d1c85ee854e388aeb0971a6a68e176798504780d"
+        },
+        "team_source_commit": "851a48b7d7399a96c31d89d73d9b5cb98dd92b76",
+        "temperature": 4.0,
+        "training_crop_scale": [
+          0.6,
+          1.0
+        ],
+        "warmup_epochs": 5
+      },
+      "job": "cub200/student_KD_GitB0_B0/seed_44",
+      "schema_version": 1,
+      "seed": 44,
+      "source": {
+        "Teacher_lock_id": "6990d87cfe844ea35bf71d4190dca08d2ef2de177fabf5b56b4f7de84299f4aa",
+        "student_initial": {
+          "contract_id": "890e42e84301d9286085b5cb2c7adbddd12d348289578b059234270a4247d2a9",
+          "kind": "initial",
+          "model_digest": "bff7363af2d07794932b57c3f375f6e2082a1195fd7d83f8570fa599e3458307",
+          "path": "/content/drive/MyDrive/온디바이스AI/TeacherSizeKD_TeamCUB_851a48b_v1/results/main/cub200/student_initializations/seed_44.pt",
+          "seed": 44,
+          "sha256": "36682f48dcb2fa93a60ae189b398cf7d928250395c4503584ebb0a00a33f8e32"
+        },
+        "teacher": {
+          "file_id": "1xwR2mviCdrSYJ-n2eZuFbd14reVcXuiq",
+          "model_digest": "7648ceddc2141ad260a12d538529eb288209676015a983e93bbd1d71827ae4a1",
+          "provider_metadata": {
+            "id": "1xwR2mviCdrSYJ-n2eZuFbd14reVcXuiq",
+            "md5Checksum": "6a0f935f9c7debf70070d0be5216bc2d",
+            "mimeType": "application/x-zip",
+            "name": "best.pth",
+            "sha256Checksum": "3ceffe27b7d41a711937961e117a28d95b2d5611be4dc473969155b78620f207",
+            "size": "351205675",
+            "trashed": false,
+            "version": "12"
+          },
+          "sha256": "3ceffe27b7d41a711937961e117a28d95b2d5611be4dc473969155b78620f207"
+        }
+      },
+      "split_id": "1292a6044619289af8f27b729d6fa20e7afbe8f6a382c359638c14d6caba28c9"
+    },
+    "contract_id": "a7bbbb498118431519a41a40f2f2847a3c77e9aace27c40cfb26e1a9f33e7a31"
+  }
+}

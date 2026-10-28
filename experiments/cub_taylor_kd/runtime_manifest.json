@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "runtimes": {
+    "teacher": {
+      "file": "GIT_B0_TAYLOR_30_50_70_v1_2.zip",
+      "bytes": 2367996,
+      "uncompressed_bytes": 7613859,
+      "sha256": "1926e8886f486a269398e86b42170c350d3c5f4b3fae655686a79792daf58272",
+      "code_id": "81aefa8e76aa6e245c427745c532d0545ebd072d14669da21e0a057cdcde5a7d",
+      "drive_relative_path": "cub_focus_light_io_v1/GIT_B0_TAYLOR_30_50_70_v1_2/GIT_B0_TAYLOR_30_50_70_v1_2.zip"
+    },
+    "kd": {
+      "file": "KD_OFFICIAL_FOLLOWUP_v1.zip",
+      "bytes": 2417035,
+      "uncompressed_bytes": 7748405,
+      "sha256": "01deade762a60f0a2531e07400f8be352d3a907170fc08b6e4a96809c68d46f8",
+      "code_id": "872e1a3560df5dce08a03efdf0932763299545a61921f95418a3b2a6ef9545af",
+      "drive_relative_path": "cub_focus_light_io_v1/CUB_KD_AND_OFFICIAL_TAYLOR_v1/KD_OFFICIAL_FOLLOWUP_v1.zip"
+    }
+  }
+}

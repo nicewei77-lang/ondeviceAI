@@ -1,0 +1,53 @@
+{
+  "state": "PACKAGING_VALIDATION_PASS",
+  "new_training": false,
+  "GPU_forward": false,
+  "model_payload_download": false,
+  "live_tensor_restore": false,
+  "cold_process_checks": {
+    "teacher": {
+      "state": "PASS",
+      "Native_initialization": true,
+      "plan_only": true,
+      "log_sha256": "a1909f7f0d1917a9f2e63548b61184733cbac2cbc02d9108d9c7110674d717a1"
+    },
+    "kd": {
+      "state": "PASS",
+      "Native_initialization": true,
+      "plan_only": true,
+      "log_sha256": "67a7efb9393f1d13f4f89dbf6f7a6438193d7899627f60beb6de9cefbaefa4c1"
+    }
+  },
+  "independent_review": "No actionable API/schema/path/README-link mismatch found in new bootstrap, checkpoint helper and optional downloader; static review only",
+  "checks": {
+    "teacher_B30_50_70_Taylor_CE_KL_from_B0_colab.ipynb": {
+      "nbformat": true,
+      "AST": true,
+      "outputs_cleared": true,
+      "sha256": "52a62118467bb9a4d01c0e788ff7efd18da136384cd66ab99d48aca5f68f1fb0"
+    },
+    "kd_Taylor_CE_KL_from_B0_colab.ipynb": {
+      "nbformat": true,
+      "AST": true,
+      "outputs_cleared": true,
+      "sha256": "deb3b55498d159ace7964cefb59d7987fe3f984ae2ba754495109b0d5a563ac0"
+    },
+    "teacher_runtime": {
+      "bytes": 2367996,
+      "files": 225,
+      "Python_AST_files": 150,
+      "SHA256": "1926e8886f486a269398e86b42170c350d3c5f4b3fae655686a79792daf58272"
+    },
+    "kd_runtime": {
+      "bytes": 2417035,
+      "files": 242,
+      "Python_AST_files": 163,
+      "SHA256": "01deade762a60f0a2531e07400f8be352d3a907170fc08b6e4a96809c68d46f8"
+    },
+    "student_summary": {
+      "groups": 5,
+      "metrics_each": 5,
+      "mean_sample_SD_recalculated": true
+    }
+  }
+}

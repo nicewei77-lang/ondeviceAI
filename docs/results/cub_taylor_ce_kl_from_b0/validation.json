@@ -1,0 +1,287 @@
+{
+  "state": "PACKAGING_AND_SAVED_RESULT_RECALCULATION_PASS",
+  "verified": [
+    "Teacher80 and Student720 producer COMPLETE",
+    "15 histories and validation selection",
+    "19 exact CSV raw SHA and byte counts",
+    "19x5794 ordered test IDs/labels/correctness/Hard/CE",
+    "5 groups of 3 Student seeds mean and sample SD",
+    "15 model-link metadata IDs and sizes"
+  ],
+  "histories": [
+    {
+      "kind": "teacher",
+      "ratio": 30,
+      "rows": 40,
+      "selection_verified": true
+    },
+    {
+      "kind": "teacher",
+      "ratio": 50,
+      "rows": 20,
+      "selection_verified": true
+    },
+    {
+      "kind": "teacher",
+      "ratio": 70,
+      "rows": 20,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_30_seed42",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_30_seed43",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_30_seed44",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_50_seed42",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_50_seed43",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_50_seed44",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_70_seed42",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_70_seed43",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_70_seed44",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_B0_seed42",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_B0_seed43",
+      "rows": 60,
+      "selection_verified": true
+    },
+    {
+      "kind": "student",
+      "job": "KD_B0_seed44",
+      "rows": 60,
+      "selection_verified": true
+    }
+  ],
+  "csv_checks": [
+    {
+      "name": "student_30_42",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "9fcc69ab5a615471cfeee4953f6f3ad8087c75bda7e8f7f14fa387cd99898a67",
+      "source_file_id": "1ZrVh8G4J4JTA0gA6SW__nZ825A_kaZfx",
+      "metrics_match": true
+    },
+    {
+      "name": "student_30_43",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "15acee8d1ad037b7ee0c23b61700a467d40f263f6238950d5b552175d727e80b",
+      "source_file_id": "1Qb_DrqezMshakPwwomAbUTcqLd9YUeOu",
+      "metrics_match": true
+    },
+    {
+      "name": "student_30_44",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "e91eb8ee4af7bd1e4b388c53ce04919d01dda77c2e4f1276066a472bf0b2abb1",
+      "source_file_id": "1Wz9-spLQTmgPqRv357tqghGPY4u4vjHA",
+      "metrics_match": true
+    },
+    {
+      "name": "student_50_42",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "0bde2fd75fd3aeeb1bfc48ce11175bdda83ee9af5f97929a10a9d7c9a58f33ec",
+      "source_file_id": "11rr7LsGbQ-gY65QUgP3tT101VDLgpDoy",
+      "metrics_match": true
+    },
+    {
+      "name": "student_50_43",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "9df1e0d5025a8fde31bb72ee68c00326882d9df637fa3feea1a53c88eb7fa251",
+      "source_file_id": "16m6MF6fndGhaMyuYfljhZTFtRCOw487c",
+      "metrics_match": true
+    },
+    {
+      "name": "student_50_44",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "ad7f231c5bd287253d8a8262c62a2a76dfd9a9cf956be55acb65d1204fc04eed",
+      "source_file_id": "10KOGmw2RnndT1ThgJu3H__6xY3RWGY6p",
+      "metrics_match": true
+    },
+    {
+      "name": "student_70_42",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "e0305a598b1cabe1ae0ce905f92aef9c979e7552fea39902b1a22a02933cabc8",
+      "source_file_id": "1PLDmuleElL-uIz6bb-Zc_RcgxgHi_Anb",
+      "metrics_match": true
+    },
+    {
+      "name": "student_70_43",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "a695fe9672311130d84bf15bdea66eaa5ce934c521a9ec55e68278b12146313c",
+      "source_file_id": "18hjWNNbbJ4ouqd128rjSeAaEgk4bOBgl",
+      "metrics_match": true
+    },
+    {
+      "name": "student_70_44",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "c3373f84b289f65c56a1baa817c2fd5e51d713d9c9e3be9b1c1a10325e6ea8fe",
+      "source_file_id": "1QSoRoQPQmyU4dY0CFta_XPvL5KfP0wtS",
+      "metrics_match": true
+    },
+    {
+      "name": "student_B0_42",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "f7e24fefa91693becc4c747d5757d5cfaf58d972560689bd90fa5491369ac362",
+      "source_file_id": "1UX5Sib0izI9NhPHuR0-St1QEx4WgAUea",
+      "metrics_match": true
+    },
+    {
+      "name": "student_B0_43",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "e8746c5eec9e4fab65be02a5f0669a7398248251a17a5c39644394ddf5c3901e",
+      "source_file_id": "1LJQkdhIp2JlyWvvg20erNW8dBWMLK3SK",
+      "metrics_match": true
+    },
+    {
+      "name": "student_B0_44",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "2bc578f4059ac05a4655e64ad5da922a7b4d08d0b39130effb50653104b0f6c8",
+      "source_file_id": "1M5g39GXBw3-OLvlbGuO2EJg-WRQ4gJr-",
+      "metrics_match": true
+    },
+    {
+      "name": "student_baseline_42",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "a0e4fc21b46e8cf0286c404a91569578981b5c40514bd1eee4ceb240272e663f",
+      "source_file_id": "1OO6ViKXqQMlf1T_jyFrb-guBeZVf8Drj",
+      "metrics_match": true
+    },
+    {
+      "name": "student_baseline_43",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "8e232cc8d493125043e3bb6d5e858de3e3965956213d99c9f11a28ff50ae67c9",
+      "source_file_id": "1KEhiGwJG1lcTzKOmdrT0v1GqJKyBBV1X",
+      "metrics_match": true
+    },
+    {
+      "name": "student_baseline_44",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "6f3499297a16f0143f5c8dc480f0ed5136bdd4710b16c9008c1169910a75cc07",
+      "source_file_id": "1zxeURpfZgFLqal-Y-6-18nNHR9tsKsTI",
+      "metrics_match": true
+    },
+    {
+      "name": "teacher_0",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "96a522d92439935349b3d3deb76fa4116e4b393de84450b501f0363ad63ccf22",
+      "source_file_id": "1HvHnoIhHKic2JK2O05qFTm4BWqFmYD06",
+      "metrics_match": true
+    },
+    {
+      "name": "teacher_30",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "cfd3cff8bfa3b98a89361f949a1ac30f0d8a4aef8ec91e86e2b1377e89c51ff1",
+      "source_file_id": "1dAUM2V8HJQZRJpGH1s5XeYD_MN3RuHby",
+      "metrics_match": true
+    },
+    {
+      "name": "teacher_50",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "d35d32a5777e94dd4239e10d298f538c74dae481e645822cb9fd65ae09462ff6",
+      "source_file_id": "1o0DQPmo8he2Wzpfyyq7nVKOxRNaLYEkn",
+      "metrics_match": true
+    },
+    {
+      "name": "teacher_70",
+      "rows": 5794,
+      "hard_samples": 1164,
+      "sha256": "d92be7853d5c2bb06741b2cebcb326adafd9c5ac1770c2d4d1b2467385b63437",
+      "source_file_id": "1ke-ZpAaToQ83unzFZmID1QDxmy2uq5yM",
+      "metrics_match": true
+    }
+  ],
+  "new_training_or_forward": false,
+  "model_payload_downloaded": false,
+  "model_tensor_restore_verified_here": false,
+  "source_evidence_files": [
+    {
+      "path": "docs/results/cub_taylor_ce_kl_from_b0/evidence/teacher_complete.json",
+      "bytes": 574704,
+      "sha256": "cf90e931578db28c2710997abc0799e911f25d7f7bf72c9c7418de32423b874b"
+    },
+    {
+      "path": "docs/results/cub_taylor_ce_kl_from_b0/evidence/teacher_test__COMPLETE.json",
+      "bytes": 601568,
+      "sha256": "9d017f71d9100c58c0a80fd6f8bf9dca4c1785828f650916110484f2e0ce3f3b"
+    },
+    {
+      "path": "docs/results/cub_taylor_ce_kl_from_b0/evidence/kd_complete.json",
+      "bytes": 2657745,
+      "sha256": "bbbd2d76b484b5cf54face2c690e9508211d952440a54de58eab7595c12c43c5"
+    },
+    {
+      "path": "docs/results/cub_taylor_ce_kl_from_b0/evidence/kd_training_complete.json",
+      "bytes": 391487,
+      "sha256": "08740c56a85b1152cb629bc3a7c64aa148b5ed8f61dd55f164308e535bf5ac97"
+    },
+    {
+      "path": "docs/results/cub_taylor_ce_kl_from_b0/evidence/kd_teachers_lock.json",
+      "bytes": 2654,
+      "sha256": "6c864e756af16c980e2d2acea69c4ea62df85fcc77d3064669a2c61491a8be8a"
+    }
+  ]
+}

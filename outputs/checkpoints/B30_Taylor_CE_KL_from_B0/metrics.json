@@ -1,0 +1,24 @@
+{
+  "selection": {
+    "segment_epoch_1based": 33,
+    "input_stream_epoch_1based": 33,
+    "validation_accuracy_pct": 84.08333333333333,
+    "validation_CE": 0.7099212408065796,
+    "validation_Hard_accuracy_pct": 59.583333333333336,
+    "rule": "final quarter; validation OA, then CE, then earliest epoch"
+  },
+  "parameters": 62640062,
+  "test": {
+    "num_samples": 5794,
+    "accuracy_pct": 83.31032102174663,
+    "macro_accuracy_pct": 83.48862221994668,
+    "loss": 0.7354149632684509,
+    "hard_samples": 1164,
+    "hard_accuracy_pct": 63.74570446735395,
+    "hard_macro_accuracy_pct": 63.8794142185703,
+    "hard_ce": 1.5366214868264876,
+    "evaluation_batch_size": 8
+  },
+  "train_epochs_this_segment": 40,
+  "cumulative_hidden_removal_percent": 30
+}

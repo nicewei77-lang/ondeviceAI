@@ -10,7 +10,7 @@ Teacher 모델의 일부 채널을 제거한 뒤, 그 모델의 예측을 활용
 
 온디바이스 AI 수업에서 배운 경량화 기법과 평가 방법을 직접 구현하며 실습하는 것도 목표다.
 
-**현재 상태:** CUB-200-2011의 데이터 분할, 이미지 전처리, Dataset과 DataLoader를 구현했다. 모델 학습, pruning, 지식 증류와 기기 성능 측정은 아직 진행하지 않았다.
+**현재 CUB 결과:** Git B-0 기반 Taylor + CE + KL 가지치기 30%/50%/70%와 B-0/30/50/70 Teacher의 Student KD 실험을 완료했다. [가지치기 노트북](notebooks/teacher_B30_50_70_Taylor_CE_KL_from_B0_colab.ipynb), [KD 노트북](notebooks/kd_Taylor_CE_KL_from_B0_colab.ipynb), [실행과 복원 안내](experiments/cub_taylor_kd/README.md), [실제 결과와 검증 근거](docs/results/cub_taylor_ce_kl_from_b0/README.md)를 제공한다. 가중치는 기존 방식대로 Drive 링크와 SHA-256으로 관리한다. 아래 본문은 초기 구현과 연구 계획이며 최신 CUB 완료 범위는 연결된 결과 문서를 기준으로 확인한다.
 
 ## 무엇을 비교하는가
 

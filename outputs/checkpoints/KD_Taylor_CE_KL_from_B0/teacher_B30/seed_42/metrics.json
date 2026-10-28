@@ -1,0 +1,20 @@
+{
+  "selected_epoch_1based": 55,
+  "validation": {
+    "accuracy_pct": 72.16666666666667,
+    "loss": 1.1856310489986777
+  },
+  "test": {
+    "num_samples": 5794,
+    "accuracy_pct": 72.48878149810149,
+    "macro_accuracy_pct": 72.5988227697965,
+    "loss": 1.1438000233013763,
+    "hard_samples": 1164,
+    "hard_accuracy_pct": 52.233676975945016,
+    "hard_macro_accuracy_pct": 52.31554765561118,
+    "hard_ce": 2.0338123082194395,
+    "evaluation_batch_size": 16
+  },
+  "applied_optimizer_steps": 4493,
+  "AMP_skips": 7
+}

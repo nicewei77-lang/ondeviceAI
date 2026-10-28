@@ -1,0 +1,594 @@
+{
+  "schema": "cub.completed_results.v1",
+  "teacher_sequence_id": "3243d033e97b5c4f1db2406c68a74a429cdb2f178533bff97ec37380128f383d",
+  "student_sequence_id": "559859281ccce8a7708246a455b860c93e06644e003934e6b9f757ecf1dd9872",
+  "teacher_training_epochs": 80,
+  "student_training_jobs": 12,
+  "student_training_epochs": 720,
+  "teacher_test": {
+    "0": {
+      "num_samples": 5794,
+      "accuracy_pct": 82.4991370383155,
+      "macro_accuracy_pct": 82.6123763036984,
+      "loss": 0.7546137533392382,
+      "hard_samples": 1164,
+      "hard_accuracy_pct": 63.91752577319588,
+      "hard_macro_accuracy_pct": 63.78042752770521,
+      "hard_ce": 1.5197400543594677,
+      "evaluation_batch_size": 8
+    },
+    "30": {
+      "num_samples": 5794,
+      "accuracy_pct": 83.31032102174663,
+      "macro_accuracy_pct": 83.48862221994668,
+      "loss": 0.7354149632684509,
+      "hard_samples": 1164,
+      "hard_accuracy_pct": 63.74570446735395,
+      "hard_macro_accuracy_pct": 63.8794142185703,
+      "hard_ce": 1.5366214868264876,
+      "evaluation_batch_size": 8
+    },
+    "50": {
+      "num_samples": 5794,
+      "accuracy_pct": 82.34380393510529,
+      "macro_accuracy_pct": 82.46867763867685,
+      "loss": 0.7861560611615085,
+      "hard_samples": 1164,
+      "hard_accuracy_pct": 63.402061855670105,
+      "hard_macro_accuracy_pct": 63.4500840961821,
+      "hard_ce": 1.5837571263396033,
+      "evaluation_batch_size": 8
+    },
+    "70": {
+      "num_samples": 5794,
+      "accuracy_pct": 79.28891957197101,
+      "macro_accuracy_pct": 79.42542890985644,
+      "loss": 0.9671743375327095,
+      "hard_samples": 1164,
+      "hard_accuracy_pct": 60.13745704467354,
+      "hard_macro_accuracy_pct": 60.148980707737515,
+      "hard_ce": 1.8819709027188933,
+      "evaluation_batch_size": 8
+    }
+  },
+  "student_test": {
+    "30": {
+      "accuracy_pct": {
+        "mean": 72.43125071913474,
+        "sample_std": 0.2976071144028954,
+        "values": [
+          72.48878149810149,
+          72.69589230238178,
+          72.10907835692095
+        ]
+      },
+      "hard_accuracy_pct": {
+        "mean": 51.460481099656356,
+        "sample_std": 0.9907699823600339,
+        "values": [
+          52.233676975945016,
+          51.8041237113402,
+          50.34364261168385
+        ]
+      },
+      "hard_ce": {
+        "mean": 2.001680356276504,
+        "sample_std": 0.06656237051022826,
+        "values": [
+          2.0338123082194395,
+          1.9251478406637312,
+          2.0460809199463426
+        ]
+      },
+      "loss": {
+        "mean": 1.1380217402153185,
+        "sample_std": 0.02070879432100661,
+        "values": [
+          1.1438000233013763,
+          1.1150375060956732,
+          1.1552276912489063
+        ]
+      },
+      "macro_accuracy_pct": {
+        "mean": 72.55839642813326,
+        "sample_std": 0.32917946279576643,
+        "values": [
+          72.5988227697965,
+          72.86549564921694,
+          72.21087086538637
+        ]
+      }
+    },
+    "50": {
+      "accuracy_pct": {
+        "mean": 72.76492923714187,
+        "sample_std": 0.19904319286625294,
+        "values": [
+          72.98929927511219,
+          72.69589230238178,
+          72.60959613393166
+        ]
+      },
+      "hard_accuracy_pct": {
+        "mean": 51.746849942726236,
+        "sample_std": 0.34720377013121667,
+        "values": [
+          51.8041237113402,
+          52.06185567010309,
+          51.3745704467354
+        ]
+      },
+      "hard_ce": {
+        "mean": 1.9540517156565125,
+        "sample_std": 0.042106538436599276,
+        "values": [
+          1.9888329067685542,
+          1.9072389832349692,
+          1.9660832569660143
+        ]
+      },
+      "loss": {
+        "mean": 1.1396082665833351,
+        "sample_std": 0.003766750239092789,
+        "values": [
+          1.141402451462808,
+          1.1352798358001226,
+          1.1421425124870745
+        ]
+      },
+      "macro_accuracy_pct": {
+        "mean": 72.87888290428204,
+        "sample_std": 0.1594097073546147,
+        "values": [
+          73.01557070895824,
+          72.91730410784699,
+          72.70377389604091
+        ]
+      }
+    },
+    "70": {
+      "accuracy_pct": {
+        "mean": 72.88574387297204,
+        "sample_std": 0.18265456065341037,
+        "values": [
+          72.81670693821194,
+          73.09285467725233,
+          72.74767000345184
+        ]
+      },
+      "hard_accuracy_pct": {
+        "mean": 52.06185567010309,
+        "sample_std": 0.6818946678001525,
+        "values": [
+          52.83505154639175,
+          51.8041237113402,
+          51.54639175257732
+        ]
+      },
+      "hard_ce": {
+        "mean": 1.9554303729640015,
+        "sample_std": 0.02195646685906198,
+        "values": [
+          1.9807749701978261,
+          1.9421880039790729,
+          1.9433281447151052
+        ]
+      },
+      "loss": {
+        "mean": 1.122940146015688,
+        "sample_std": 0.004184015540977401,
+        "values": [
+          1.1267249119683802,
+          1.1236482718471805,
+          1.1184472542315032
+        ]
+      },
+      "macro_accuracy_pct": {
+        "mean": 73.02442313880148,
+        "sample_std": 0.19499228115024164,
+        "values": [
+          72.95618791423061,
+          73.24436312676863,
+          72.8727183754052
+        ]
+      }
+    },
+    "B0": {
+      "accuracy_pct": {
+        "mean": 72.21838683695778,
+        "sample_std": 0.4143414470148612,
+        "values": [
+          72.52329996548153,
+          71.74663444943045,
+          72.38522609596134
+        ]
+      },
+      "hard_accuracy_pct": {
+        "mean": 51.317296678121416,
+        "sample_std": 1.286749251927888,
+        "values": [
+          52.74914089347079,
+          50.945017182130584,
+          50.25773195876289
+        ]
+      },
+      "hard_ce": {
+        "mean": 1.9741439427870224,
+        "sample_std": 0.030522991167104017,
+        "values": [
+          1.9715846050621992,
+          1.9449812015511052,
+          2.005866021747763
+        ]
+      },
+      "loss": {
+        "mean": 1.1436168426996052,
+        "sample_std": 0.006744416804590556,
+        "values": [
+          1.1406202033784567,
+          1.1513402946975884,
+          1.1388900300227707
+        ]
+      },
+      "macro_accuracy_pct": {
+        "mean": 72.33599083145428,
+        "sample_std": 0.4199165008206856,
+        "values": [
+          72.58460166959536,
+          71.85116584837843,
+          72.57220497638906
+        ]
+      }
+    },
+    "baseline": {
+      "accuracy_pct": {
+        "mean": 67.48360372799448,
+        "sample_std": 0.46727602246051025,
+        "values": [
+          67.15567828788402,
+          68.01863997238523,
+          67.27649292371419
+        ]
+      },
+      "hard_accuracy_pct": {
+        "mean": 47.25085910652921,
+        "sample_std": 1.96846035006694,
+        "values": [
+          47.68041237113402,
+          48.96907216494845,
+          45.103092783505154
+        ]
+      },
+      "hard_ce": {
+        "mean": 2.6203672568977945,
+        "sample_std": 0.08495592560348159,
+        "values": [
+          2.6183030989884277,
+          2.536462219500213,
+          2.706336452204743
+        ]
+      },
+      "loss": {
+        "mean": 1.5754004507663533,
+        "sample_std": 0.02157382143108126,
+        "values": [
+          1.5915071602100441,
+          1.550889264950692,
+          1.5838049271383237
+        ]
+      },
+      "macro_accuracy_pct": {
+        "mean": 67.69449693746229,
+        "sample_std": 0.42357318835480345,
+        "values": [
+          67.34785324540118,
+          68.16663789091193,
+          67.56899967607377
+        ]
+      }
+    }
+  },
+  "baseline_retraining": false,
+  "test_samples": 5794,
+  "hard_classes": 40,
+  "hard_samples": 1164,
+  "SD_definition": "sample SD of 3 Student seeds, ddof=1",
+  "Test_previously_exposed": true,
+  "new_holdout_claim": false,
+  "Student_only_baselines": {
+    "42": {
+      "checkpoint": {
+        "contract_id": "3fc447e486956ab836f093b35df4d69da4853880c0dff15b1263bcd0526dbd54",
+        "kind": "baseline",
+        "model_digest": "3390e70713bfd47902b23b8b403d262827b4307bc3438db0504dc46254fd6e69",
+        "path": "/content/drive/MyDrive/온디바이스AI/TeacherSizeKD_TeamCUB_851a48b_v1/results/main/cub200/students/baseline/seed_42/best.pt",
+        "seed": 42,
+        "sha256": "f1c5b32a03103e1c67599ef131de3d6d72c4a17ac6ea9c2aef5a1871ed16dd6b"
+      },
+      "contract": {
+        "code_id": "39bb09857f02169e49f163985836161c7643d418f1c6b7b5f5b2e34ac5c77dea",
+        "config": {
+          "amp": true,
+          "batch_size": 16,
+          "checkpoint_selection": "validation_overall_accuracy",
+          "cub_validation_per_class": 6,
+          "data_profile": "team_cub_shared851a48b_pad224_v1",
+          "dataset": "cub200",
+          "datasets": [
+            "cub200"
+          ],
+          "effective_batch_size": 64,
+          "eval_resize": 224,
+          "experiment_id": "team_cub_shared851a48b_pad224_native_v1",
+          "hard_class_fraction": 0.2,
+          "hard_margin_pp": 2.0,
+          "head_epochs": 5,
+          "image_size": 224,
+          "kd_alpha": 0.5,
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "num_classes": 200,
+          "num_workers": 2,
+          "overall_margin_pp": 1.0,
+          "pruning_applied": false,
+          "schema_version": 1,
+          "split_seed": 42,
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "student_architecture": "mobilenet_v3_large",
+          "student_epochs": 60,
+          "student_lr": 0.0003,
+          "student_seeds": [
+            42,
+            43,
+            44
+          ],
+          "student_weight_decay": 0.0001,
+          "student_weights": "IMAGENET1K_V2",
+          "teacher_backbone_lr": 5e-05,
+          "teacher_finetune_epochs": 40,
+          "teacher_head_lr": 0.0005,
+          "teacher_seed": 20261013,
+          "teacher_sizes": [
+            "tiny",
+            "small",
+            "base"
+          ],
+          "teacher_source_commit": "6876159a11b4df116f30f667f8c9888617df0751",
+          "teacher_weight_decay": 0.05,
+          "team_shared_split_sha256": {
+            "test_ids.txt": "de2dd4ab1b483bdce28c72d2290243ced14a4f3181b23426c76e82c42ebfcfe5",
+            "train_ids.txt": "539eedcc691bd889e59106d8f9b167b4481f2b5461413148920a4018407024f9",
+            "validation_ids.txt": "45e0b821855a851c3d17d0b5d1c85ee854e388aeb0971a6a68e176798504780d"
+          },
+          "team_source_commit": "851a48b7d7399a96c31d89d73d9b5cb98dd92b76",
+          "temperature": 4.0,
+          "training_crop_scale": [
+            0.6,
+            1.0
+          ],
+          "warmup_epochs": 5
+        },
+        "job": "cub200/baseline",
+        "schema_version": 1,
+        "seed": 42,
+        "source": {
+          "student_initial_digest": "4e1a55fb6dbf097248ae9f76cada284e9bd79813d9a7c5f59be06fda546c5ebf"
+        },
+        "split_id": "1292a6044619289af8f27b729d6fa20e7afbe8f6a382c359638c14d6caba28c9"
+      },
+      "epoch": 36,
+      "model_spec": {
+        "architecture": "mobilenet_v3_large",
+        "dropout": 0.2,
+        "kind": "student",
+        "num_classes": 200,
+        "schema_version": 1,
+        "test_fixture": false,
+        "width_mult": 1.0
+      }
+    },
+    "43": {
+      "checkpoint": {
+        "contract_id": "c0e5d7a812b8560d4e1c04f4672ebe346a12a65456e4846b2df644cf3f7df472",
+        "kind": "baseline",
+        "model_digest": "8317d2e5920977777dc534c94cbee53cf7f9367052f25e8b849ed118cfd671f4",
+        "path": "/content/drive/MyDrive/온디바이스AI/TeacherSizeKD_TeamCUB_851a48b_v1/results/main/cub200/students/baseline/seed_43/best.pt",
+        "seed": 43,
+        "sha256": "6256050264a4a54f28f7df2c7f4b57e1f131c9cd8faf3a3b3e63d07f9fb0f535"
+      },
+      "contract": {
+        "code_id": "39bb09857f02169e49f163985836161c7643d418f1c6b7b5f5b2e34ac5c77dea",
+        "config": {
+          "amp": true,
+          "batch_size": 16,
+          "checkpoint_selection": "validation_overall_accuracy",
+          "cub_validation_per_class": 6,
+          "data_profile": "team_cub_shared851a48b_pad224_v1",
+          "dataset": "cub200",
+          "datasets": [
+            "cub200"
+          ],
+          "effective_batch_size": 64,
+          "eval_resize": 224,
+          "experiment_id": "team_cub_shared851a48b_pad224_native_v1",
+          "hard_class_fraction": 0.2,
+          "hard_margin_pp": 2.0,
+          "head_epochs": 5,
+          "image_size": 224,
+          "kd_alpha": 0.5,
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "num_classes": 200,
+          "num_workers": 2,
+          "overall_margin_pp": 1.0,
+          "pruning_applied": false,
+          "schema_version": 1,
+          "split_seed": 42,
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "student_architecture": "mobilenet_v3_large",
+          "student_epochs": 60,
+          "student_lr": 0.0003,
+          "student_seeds": [
+            42,
+            43,
+            44
+          ],
+          "student_weight_decay": 0.0001,
+          "student_weights": "IMAGENET1K_V2",
+          "teacher_backbone_lr": 5e-05,
+          "teacher_finetune_epochs": 40,
+          "teacher_head_lr": 0.0005,
+          "teacher_seed": 20261013,
+          "teacher_sizes": [
+            "tiny",
+            "small",
+            "base"
+          ],
+          "teacher_source_commit": "6876159a11b4df116f30f667f8c9888617df0751",
+          "teacher_weight_decay": 0.05,
+          "team_shared_split_sha256": {
+            "test_ids.txt": "de2dd4ab1b483bdce28c72d2290243ced14a4f3181b23426c76e82c42ebfcfe5",
+            "train_ids.txt": "539eedcc691bd889e59106d8f9b167b4481f2b5461413148920a4018407024f9",
+            "validation_ids.txt": "45e0b821855a851c3d17d0b5d1c85ee854e388aeb0971a6a68e176798504780d"
+          },
+          "team_source_commit": "851a48b7d7399a96c31d89d73d9b5cb98dd92b76",
+          "temperature": 4.0,
+          "training_crop_scale": [
+            0.6,
+            1.0
+          ],
+          "warmup_epochs": 5
+        },
+        "job": "cub200/baseline",
+        "schema_version": 1,
+        "seed": 43,
+        "source": {
+          "student_initial_digest": "a561243b8f2c7ff1a6aecb00f77684505c3fd30cc51e20863c684f36538d79fd"
+        },
+        "split_id": "1292a6044619289af8f27b729d6fa20e7afbe8f6a382c359638c14d6caba28c9"
+      },
+      "epoch": 58,
+      "model_spec": {
+        "architecture": "mobilenet_v3_large",
+        "dropout": 0.2,
+        "kind": "student",
+        "num_classes": 200,
+        "schema_version": 1,
+        "test_fixture": false,
+        "width_mult": 1.0
+      }
+    },
+    "44": {
+      "checkpoint": {
+        "contract_id": "a127267d3c698d938e975c865f1d7b8cb5060a5b9863b383552f07e553e1b220",
+        "kind": "baseline",
+        "model_digest": "fbe807f6d023b33d48bcf25bb03c162ff10a9188bc9b5e32bdc28c584191dae8",
+        "path": "/content/drive/MyDrive/온디바이스AI/TeacherSizeKD_TeamCUB_851a48b_v1/results/main/cub200/students/baseline/seed_44/best.pt",
+        "seed": 44,
+        "sha256": "02220d5239fc2703112dd9fef8cd84f6ce2a1a8eac157f71bce491212fe4a143"
+      },
+      "contract": {
+        "code_id": "39bb09857f02169e49f163985836161c7643d418f1c6b7b5f5b2e34ac5c77dea",
+        "config": {
+          "amp": true,
+          "batch_size": 16,
+          "checkpoint_selection": "validation_overall_accuracy",
+          "cub_validation_per_class": 6,
+          "data_profile": "team_cub_shared851a48b_pad224_v1",
+          "dataset": "cub200",
+          "datasets": [
+            "cub200"
+          ],
+          "effective_batch_size": 64,
+          "eval_resize": 224,
+          "experiment_id": "team_cub_shared851a48b_pad224_native_v1",
+          "hard_class_fraction": 0.2,
+          "hard_margin_pp": 2.0,
+          "head_epochs": 5,
+          "image_size": 224,
+          "kd_alpha": 0.5,
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "num_classes": 200,
+          "num_workers": 2,
+          "overall_margin_pp": 1.0,
+          "pruning_applied": false,
+          "schema_version": 1,
+          "split_seed": 42,
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "student_architecture": "mobilenet_v3_large",
+          "student_epochs": 60,
+          "student_lr": 0.0003,
+          "student_seeds": [
+            42,
+            43,
+            44
+          ],
+          "student_weight_decay": 0.0001,
+          "student_weights": "IMAGENET1K_V2",
+          "teacher_backbone_lr": 5e-05,
+          "teacher_finetune_epochs": 40,
+          "teacher_head_lr": 0.0005,
+          "teacher_seed": 20261013,
+          "teacher_sizes": [
+            "tiny",
+            "small",
+            "base"
+          ],
+          "teacher_source_commit": "6876159a11b4df116f30f667f8c9888617df0751",
+          "teacher_weight_decay": 0.05,
+          "team_shared_split_sha256": {
+            "test_ids.txt": "de2dd4ab1b483bdce28c72d2290243ced14a4f3181b23426c76e82c42ebfcfe5",
+            "train_ids.txt": "539eedcc691bd889e59106d8f9b167b4481f2b5461413148920a4018407024f9",
+            "validation_ids.txt": "45e0b821855a851c3d17d0b5d1c85ee854e388aeb0971a6a68e176798504780d"
+          },
+          "team_source_commit": "851a48b7d7399a96c31d89d73d9b5cb98dd92b76",
+          "temperature": 4.0,
+          "training_crop_scale": [
+            0.6,
+            1.0
+          ],
+          "warmup_epochs": 5
+        },
+        "job": "cub200/baseline",
+        "schema_version": 1,
+        "seed": 44,
+        "source": {
+          "student_initial_digest": "bff7363af2d07794932b57c3f375f6e2082a1195fd7d83f8570fa599e3458307"
+        },
+        "split_id": "1292a6044619289af8f27b729d6fa20e7afbe8f6a382c359638c14d6caba28c9"
+      },
+      "epoch": 33,
+      "model_spec": {
+        "architecture": "mobilenet_v3_large",
+        "dropout": 0.2,
+        "kind": "student",
+        "num_classes": 200,
+        "schema_version": 1,
+        "test_fixture": false,
+        "width_mult": 1.0
+      }
+    }
+  }
+}

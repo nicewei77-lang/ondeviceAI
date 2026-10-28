@@ -1,0 +1,9 @@
+# Preserve completed CUB evidence and exported metadata byte for byte.
+docs/results/cub_taylor_ce_kl_from_b0/** -text
+outputs/checkpoints/B[357]0_Taylor_CE_KL_from_B0/** -text
+outputs/checkpoints/KD_Taylor_CE_KL_from_B0/** -text
+experiments/cub_taylor_kd/runtime/*.zip binary
+
+# Keep the shared notebook sources portable across Windows and Colab.
+notebooks/teacher_B30_50_70_Taylor_CE_KL_from_B0_colab.ipynb text eol=lf
+notebooks/kd_Taylor_CE_KL_from_B0_colab.ipynb text eol=lf

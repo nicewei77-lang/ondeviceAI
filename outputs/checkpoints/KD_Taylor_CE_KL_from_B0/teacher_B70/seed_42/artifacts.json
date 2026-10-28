@@ -1,0 +1,27 @@
+{
+  "selected_checkpoint": {
+    "key": "KD_70_seed42",
+    "kind": "student",
+    "file_id": "1ro2tEZP10lM6qTGmmGfOUP_xg2GM3mjr",
+    "url": "https://drive.google.com/file/d/1ro2tEZP10lM6qTGmmGfOUP_xg2GM3mjr/view",
+    "destination": "outputs/checkpoints/KD_Taylor_CE_KL_from_B0/teacher_B70/seed_42/best.pt",
+    "bytes": 18041807,
+    "sha256": "c789fc0b0b02429f9a0b5818caba0da9d3d995d7c320fc2da1d56f48417a7708",
+    "provider_version_at_completion": "1",
+    "checksum_evidence": "producer completion receipt; model payload not downloaded for Git preparation",
+    "checkpoint_format": "Native Student checkpoint; model_state, model_spec, model_digest, contract"
+  },
+  "last_resume_checkpoint": {
+    "bytes": 53876407,
+    "file": "resume_remote_2.pt",
+    "file_id": "1OtE_I4Uy00hloYMfnqQm4pd9ILn6azAW",
+    "fixture": false,
+    "provider_quota_bytes": "53876407",
+    "provider_sha256": "a2e8b91340a966a61c7a7f3d16b3c6ba5e545280b68ec91d8d5e12757239b5f3",
+    "provider_version": "1",
+    "remote_verification": "provider_SHA256_and_size",
+    "sha256": "a2e8b91340a966a61c7a7f3d16b3c6ba5e545280b68ec91d8d5e12757239b5f3"
+  },
+  "selected_epoch_1based": 40,
+  "source_folder_url": "https://drive.google.com/drive/folders/1nm0XGMlyrax1ZdIn5TQbWWXPvWXsO76P"
+}

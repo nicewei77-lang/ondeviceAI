@@ -37,3 +37,14 @@ outputs/*
 *.tar.gz
 *.tgz
 *.7z
+
+# CUB completed experiment metadata and exact source runtime archives
+codex_ws/
+!experiments/cub_taylor_kd/runtime/GIT_B0_TAYLOR_30_50_70_v1_2.zip
+!experiments/cub_taylor_kd/runtime/KD_OFFICIAL_FOLLOWUP_v1.zip
+!outputs/checkpoints/
+outputs/checkpoints/*
+!outputs/checkpoints/B30_Taylor_CE_KL_from_B0/
+!outputs/checkpoints/B50_Taylor_CE_KL_from_B0/
+!outputs/checkpoints/B70_Taylor_CE_KL_from_B0/
+!outputs/checkpoints/KD_Taylor_CE_KL_from_B0/
